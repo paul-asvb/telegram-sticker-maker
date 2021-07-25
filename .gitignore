@@ -1,2 +1,5 @@
 .env
 input
+tmp
+output
+.DS_Store
