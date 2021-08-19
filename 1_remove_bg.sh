@@ -1,12 +1,13 @@
 source .env
 
+echo "remove backgrounds for all images and save them in ./tmp"
+
 if ! command -v curl &>/dev/null; then
     echo "curl could not be found"
     exit
 fi
 
 mkdir -p ./tmp
-
 for filepath in ./input/*; do
     filename=$(basename $filepath)
     echo $filename

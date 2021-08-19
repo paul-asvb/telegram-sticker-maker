@@ -1,5 +1,7 @@
 mkdir -p output
 
+echo "resize all images in ./tmp and save them in ./output"
+
 for filepath in ./tmp/*; do
     filename=$(basename $filepath)
     echo $filename

@@ -1,2 +1,2 @@
-./0_remove_bg.sh
-./1_resize.sh
+./1_remove_bg.sh
+./2_resize.sh
