@@ -3,7 +3,9 @@
 2. change the longer side of image to 512 with respect of aspect ratio
 
 ## prerequsities
-curl, imagemagick
+curl
+imagemagick
+API token from remove.bg in .env
 
 tested on macOS & linux
 
