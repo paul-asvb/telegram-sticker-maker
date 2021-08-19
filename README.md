@@ -5,7 +5,7 @@
 ## prerequsities
 curl, imagemagick
 
-only tested on macOS
+tested on macOS & linux
 
 ## Howto
 1. put all images in directory ./input
@@ -13,4 +13,4 @@ only tested on macOS
 ```
 bash convert.sh
 ```
-3. all images are in ./outpu
+3. all images are in ./output
