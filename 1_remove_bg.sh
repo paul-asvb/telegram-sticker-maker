@@ -7,6 +7,11 @@ if ! command -v curl &>/dev/null; then
     exit
 fi
 
+if [ -z "$REMOVE_API_KEY" ]
+then
+      echo "\$REMOVE_API_KEY is empty. go to https://www.remove.bg/ to get one for free."
+fi
+
 mkdir -p ./tmp
 for filepath in ./input/*; do
     filename=$(basename $filepath)
