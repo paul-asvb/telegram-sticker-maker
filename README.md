@@ -3,9 +3,11 @@
 2. change the longer side of image to 512 with respect of aspect ratio
 
 ## prerequsities
-curl, imagemagick
+1. curl
+2. imagemagick
+3. API token from remove.bg in .env
 
-only tested on macOS
+tested on macOS & linux
 
 ## Howto
 1. put all images in directory ./input
@@ -13,4 +15,4 @@ only tested on macOS
 ```
 bash convert.sh
 ```
-3. all images are in ./outpu
+3. all images are in ./output
